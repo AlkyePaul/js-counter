@@ -1,0 +1,45 @@
+// my brand colors
+$back-color: white;
+$back-color-2:#0E173B;
+$primary-color:#0E173B;
+$secondary-color:#FF4D00;
+$terziary-color:#00ffff;
+$secondary-color-light:orange;  
+
+.counter-container{
+    width: 500px;
+    margin: 100px auto;
+    border: 2px $primary-color solid;
+padding: 50px;
+
+
+button{
+    margin: 0px 20px;
+font-size: 30px;
+font-weight: bold;
+width: 50px;
+height: 50px;
+background-color: $primary-color;
+color: white;
+border: 2px $secondary-color solid;
+
+}
+.color-change{
+    color: $terziary-color !important;
+    scale: 1.1;
+}
+
+input{
+    display: inline;
+    margin-left: 50px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary-color;
+    border: $primary-color solid;
+
+}
+}

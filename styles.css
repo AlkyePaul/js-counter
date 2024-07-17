@@ -1,0 +1,32 @@
+.counter-container {
+  width: 500px;
+  margin: 100px auto;
+  border: 2px #0E173B solid;
+  padding: 50px;
+}
+.counter-container button {
+  margin: 0px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  background-color: #0E173B;
+  color: white;
+  border: 2px #FF4D00 solid;
+}
+.counter-container .color-change {
+  color: #00ffff !important;
+  scale: 1.1;
+}
+.counter-container input {
+  display: inline;
+  margin-left: 50px;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #FF4D00;
+  border: #0E173B solid;
+}
